@@ -1,10 +1,11 @@
 .caja2, .caja3, .caja4{
 	width: 180px;
 	height: 120px;
+	float: left;
 }
 
-.box{
-	float: left;
+.contenedor{
+	border: 1px solid black;	
 }
 
 .caja2{
