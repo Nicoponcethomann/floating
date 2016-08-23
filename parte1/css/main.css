@@ -3,6 +3,10 @@
 	height: 120px;
 }
 
+.contenedor{
+	border: 1px solid black;
+}
+
 .caja2{
 	background-color: yellow;	
 }
