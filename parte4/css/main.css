@@ -1,13 +1,12 @@
 .caja2, .caja3, .caja4{
 	width: 180px;
 	height: 120px;
-}
-
-.box{
 	float: right;
-	border: 1px solid black;
 }
 
+.contenedor{
+	border: 1px solid black;	
+}
 
 .caja2{
 	background-color: yellow;	
@@ -19,4 +18,10 @@
 
 .caja4{
 	background-color: #e71354;
+}
+
+.contenedor:after{
+	content:"";
+	display: block;
+	clear: both;
 }
